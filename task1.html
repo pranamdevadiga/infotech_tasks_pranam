@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="#section4">Portfolio</a></li>
+            <li><a href="#section5">Team</a></li>
+            <li><a href="#section6">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="section1">
+            <h1>Home</h1>
+            <p>Welcome to our homepage. We are delighted to have you here. Explore our website to learn more about what we do.</p>
+            <div class="features">
+                <div class="feature">
+                    <h2>Feature 1</h2>
+                    <p>Discover the amazing feature 1 of our product.</p>
+                </div>
+                <div class="feature">
+                    <h2>Feature 2</h2>
+                    <p>Experience the incredible feature 2 that we offer.</p>
+                </div>
+                <div class="feature">
+                    <h2>Feature 3</h2>
+                    <p>Learn more about feature 3 and how it can benefit you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <h1>About</h1>
+            <p>Learn more about us. We are dedicated to providing the best service to our customers.</p>
+            <div class="history">
+                <h2>Our History</h2>
+                <p>We started our journey in 2000 and have been growing ever since.</p>
+            </div>
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>Our mission is to deliver excellence in every aspect of our business.</p>
+            </div>
+        </section>
+
+        <section id="section3">
+            <h1>Services</h1>
+            <p>Discover our wide range of services designed to meet your needs.</p>
+            <ul class="service-list">
+                <li>Service 1: We provide top-notch consulting services.</li>
+                <li>Service 2: Our development services are unmatched.</li>
+                <li>Service 3: We offer comprehensive support and maintenance.</li>
+            </ul>
+        </section>
+
+        <section id="section4">
+            <h1>Portfolio</h1>
+            <p>Take a look at some of our recent projects.</p>
+            <div class="portfolio-gallery">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5">
+            <h1>Team</h1>
+            <p>Meet our talented team members who make everything possible.</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="member1.jpg" alt="Member 1">
+                    <h3>Member 1</h3>
+                    <p>Position</p>
+                </div>
+                <div class="team-member">
+                    <img src="member2.jpg" alt="Member 2">
+                    <h3>Member 2</h3>
+                    <p>Position</p>
+                </div>
+                <div class="team-member">
+                    <img src="member3.jpg" alt="Member 3">
+                    <h3>Member 3</h3>
+                    <p>Position</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section6">
+            <h1>Contact</h1>
+            <p>Get in touch with us. We would love to hear from you.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
